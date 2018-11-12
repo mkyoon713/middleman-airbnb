@@ -1,0 +1,42 @@
+mkyoon713:
+  name: "Min's home"
+  description: "Charming villa in Seoul"
+  city_name: "Seoul, Korea"
+  city_slug: "seoul"
+  wifi: false
+  rating: 5
+kwunman:
+  name: "Luis' home"
+  description: "Tiny flat in Hong Kong"
+  city_name: "Hong Kong, China"
+  city_slug: "hongkong"
+  wifi: true
+  rating: 3
+sumt32:
+  name: "Sumita's home"
+  description: "Nice ski hut in Hokkaido"
+  city_name: "Hokkaido, Japan"
+  city_slug: "hokkaido"
+  wifi: true
+  rating: 5
+rlwillem:
+  name: "Willem's home"
+  description: "Castle in Belgium"
+  city_name: "Gant, Belgium"
+  city_slug: "belgium"
+  wifi: true
+  rating: 5
+francishthometz:
+  name: "Francis' home"
+  description: "Party ryokan in Kyoto"
+  city_name: "Kyoto, Japan"
+  city_slug: "kyoto"
+  wifi: true
+  rating: 4
+jconduah729:
+  name: "Josh's home"
+  description: "Penthouse loft in New York"
+  city_name: "NYC, US"
+  city_slug: "newyork"
+  wifi: true
+  rating: 3
