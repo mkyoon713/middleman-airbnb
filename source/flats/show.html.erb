@@ -3,11 +3,48 @@
   <div class="banner-content">
   </div>
 </div>
-<%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
-<p>
-  <%= flat.name %>
-</p>
-<h1><%= flat.description %></h1>
-<p>
-  <%= flat.city_name %>
-</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="flat-details">
+          <div class="owner">
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+            <p>
+              <%= flat.name %>
+            </p>
+          </div>
+          <div class="flat-name">
+            <h1><%= flat.description %></h1>
+            <p>
+              <%= flat.city_name %>
+            </p>
+            <p class="rating">
+              <% flat.rating.times do |star| %>
+              <i class="fa fa-star" style="color: #ffb400"></i>
+              <% end %>
+              <% (5 - flat.rating).times do |star| %>
+              <i class="fa fa-star" style="color: #cacccd"></i>
+              <% end %>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="booking-form">
+          <h2>Book this flat</h2>
+          <form action="#" class="form-inline">
+            <input type="text" class="form-control input-sm" placeholder="checkin">
+            <input type="text" class="form-control input-sm" placeholder="checkout">
+            <select name="" id="" class="form-control input-sm">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+            <input type="submit" class="btn btn-primary btn-sm" value="Book it">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

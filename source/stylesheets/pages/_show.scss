@@ -1,0 +1,39 @@
+.flat-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+  padding-top: 50px;
+
+  .owner {
+    img {
+      width: 70px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .flat-name {
+    padding-left: 30px;
+
+    h1 {
+      font-size: 18px;
+      margin-top: 0px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+.booking-form {
+  background-color: $shadow-gray;
+  padding: 20px;
+
+  h2 {
+    font-size: 20px;
+  }
+}
